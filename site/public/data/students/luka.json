@@ -9,8 +9,8 @@
  },
  "hero": {
   "type": "video",
-  "src": "media/luka/extra_clip_03.mp4",
-  "poster": "media/luka/extra_clip_03.jpg"
+  "src": "media/luka/extra_clip_01.mp4",
+  "poster": "media/luka/hero_poster.jpg"
  },
  "remarks": {},
  "interviews": [],

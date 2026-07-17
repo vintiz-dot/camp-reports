@@ -8,9 +8,10 @@
   "class": ""
  },
  "hero": {
-  "type": "video",
-  "src": "media/sammy/clip_01.mp4",
-  "poster": "media/sammy/hero.jpg"
+  "type": "image",
+  "src": "media/sammy/photo_01.jpg",
+  "w": 1600,
+  "h": 1067
  },
  "remarks": {
   "en": {
@@ -74,8 +75,12 @@
  "stats": {
   "en": [
    {
-    "value": "4",
-    "label": "Days of English immersion"
+    "value": "40",
+    "label": "Days at camp, 8:00–17:00"
+   },
+   {
+    "value": "360+",
+    "label": "Hours of English immersion"
    },
    {
     "value": "21",
@@ -84,16 +89,16 @@
    {
     "value": "12",
     "label": "Film moments"
-   },
-   {
-    "value": "1",
-    "label": "Unforgettable summer"
    }
   ],
   "vi": [
    {
-    "value": "4",
-    "label": "Ngày hòa mình cùng tiếng Anh"
+    "value": "40",
+    "label": "Ngày ở trại, 8:00–17:00"
+   },
+   {
+    "value": "360+",
+    "label": "Giờ hòa mình cùng tiếng Anh"
    },
    {
     "value": "21",
@@ -102,10 +107,6 @@
    {
     "value": "12",
     "label": "Thước phim"
-   },
-   {
-    "value": "1",
-    "label": "Mùa hè đáng nhớ"
    }
   ]
  },
@@ -120,7 +121,7 @@
    "type": "image",
    "src": "media/sammy/photo_02.jpg",
    "w": 1600,
-   "h": 1066
+   "h": 1067
   },
   {
    "type": "video",
@@ -141,7 +142,7 @@
    "type": "image",
    "src": "media/sammy/photo_03.jpg",
    "w": 1600,
-   "h": 1067
+   "h": 1066
   },
   {
    "type": "image",
@@ -158,24 +159,30 @@
   {
    "type": "image",
    "src": "media/sammy/photo_06.jpg",
+   "w": 1600,
+   "h": 1067
+  },
+  {
+   "type": "image",
+   "src": "media/sammy/photo_07.jpg",
    "w": 1599,
    "h": 1066
   },
   {
    "type": "image",
-   "src": "media/sammy/photo_07.jpg",
+   "src": "media/sammy/photo_08.jpg",
    "w": 858,
    "h": 572
   },
   {
    "type": "image",
-   "src": "media/sammy/photo_08.jpg",
+   "src": "media/sammy/photo_09.jpg",
    "w": 678,
    "h": 452
   },
   {
    "type": "image",
-   "src": "media/sammy/photo_09.jpg",
+   "src": "media/sammy/photo_10.jpg",
    "w": 577,
    "h": 385
   }

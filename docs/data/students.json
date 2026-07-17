@@ -35,12 +35,6 @@
    "thumb": "media/elina/hero.jpg"
   },
   {
-   "slug": "elsa",
-   "name": "Elsa",
-   "class": "",
-   "thumb": "media/elsa/extra_clip_01.jpg"
-  },
-  {
    "slug": "emma",
    "name": "Emma",
    "class": "",
@@ -69,12 +63,6 @@
    "name": "Kuromi",
    "class": "",
    "thumb": "media/kuromi/hero.jpg"
-  },
-  {
-   "slug": "luka",
-   "name": "Luka",
-   "class": "",
-   "thumb": "media/luka/extra_clip_03.jpg"
   },
   {
    "slug": "moon",
@@ -116,13 +104,13 @@
    "slug": "sam",
    "name": "Sam",
    "class": "",
-   "thumb": "media/sam/hero.jpg"
+   "thumb": "media/sam/photo_01.jpg"
   },
   {
    "slug": "sammy",
    "name": "Sammy",
    "class": "",
-   "thumb": "media/sammy/hero.jpg"
+   "thumb": "media/sammy/photo_01.jpg"
   },
   {
    "slug": "william",

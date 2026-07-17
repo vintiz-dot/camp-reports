@@ -9,8 +9,8 @@
  },
  "hero": {
   "type": "video",
-  "src": "media/elsa/extra_clip_01.mp4",
-  "poster": "media/elsa/extra_clip_01.jpg"
+  "src": "media/elsa/extra_clip_02.mp4",
+  "poster": "media/elsa/hero_poster.jpg"
  },
  "remarks": {},
  "interviews": [

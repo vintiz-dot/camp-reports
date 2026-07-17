@@ -8,9 +8,10 @@
   "class": ""
  },
  "hero": {
-  "type": "video",
-  "src": "media/sam/clip_01.mp4",
-  "poster": "media/sam/hero.jpg"
+  "type": "image",
+  "src": "media/sam/photo_01.jpg",
+  "w": 1280,
+  "h": 1600
  },
  "remarks": {},
  "interviews": [
@@ -22,8 +23,12 @@
  "stats": {
   "en": [
    {
-    "value": "5",
-    "label": "Days of English immersion"
+    "value": "7",
+    "label": "Days at camp, 8:00–17:00"
+   },
+   {
+    "value": "63+",
+    "label": "Hours of English immersion"
    },
    {
     "value": "9",
@@ -32,16 +37,16 @@
    {
     "value": "29",
     "label": "Film moments"
-   },
-   {
-    "value": "1",
-    "label": "Unforgettable summer"
    }
   ],
   "vi": [
    {
-    "value": "5",
-    "label": "Ngày hòa mình cùng tiếng Anh"
+    "value": "7",
+    "label": "Ngày ở trại, 8:00–17:00"
+   },
+   {
+    "value": "63+",
+    "label": "Giờ hòa mình cùng tiếng Anh"
    },
    {
     "value": "9",
@@ -50,38 +55,10 @@
    {
     "value": "29",
     "label": "Thước phim"
-   },
-   {
-    "value": "1",
-    "label": "Mùa hè đáng nhớ"
    }
   ]
  },
  "gallery": [
-  {
-   "type": "image",
-   "src": "media/sam/extra_photo_01.jpg",
-   "w": 1200,
-   "h": 1600
-  },
-  {
-   "type": "image",
-   "src": "media/sam/extra_photo_02.jpg",
-   "w": 1600,
-   "h": 1200
-  },
-  {
-   "type": "video",
-   "src": "media/sam/extra_clip_01.mp4",
-   "poster": "media/sam/extra_clip_01.jpg",
-   "landscape": false
-  },
-  {
-   "type": "video",
-   "src": "media/sam/extra_clip_02.mp4",
-   "poster": "media/sam/extra_clip_02.jpg",
-   "landscape": false
-  },
   {
    "type": "image",
    "src": "media/sam/photo_01.jpg",
@@ -118,30 +95,36 @@
   {
    "type": "image",
    "src": "media/sam/photo_04.jpg",
-   "w": 1600,
-   "h": 1067
-  },
-  {
-   "type": "image",
-   "src": "media/sam/photo_05.jpg",
-   "w": 1600,
-   "h": 1066
-  },
-  {
-   "type": "image",
-   "src": "media/sam/photo_06.jpg",
    "w": 1280,
    "h": 1600
   },
   {
    "type": "image",
-   "src": "media/sam/photo_07.jpg",
+   "src": "media/sam/photo_05.jpg",
+   "w": 1600,
+   "h": 1067
+  },
+  {
+   "type": "image",
+   "src": "media/sam/photo_06.jpg",
    "w": 1600,
    "h": 1066
   },
   {
    "type": "image",
+   "src": "media/sam/photo_07.jpg",
+   "w": 1280,
+   "h": 1600
+  },
+  {
+   "type": "image",
    "src": "media/sam/photo_08.jpg",
+   "w": 1600,
+   "h": 1066
+  },
+  {
+   "type": "image",
+   "src": "media/sam/photo_09.jpg",
    "w": 1123,
    "h": 749
   }

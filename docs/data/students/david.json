@@ -79,8 +79,12 @@
  "stats": {
   "en": [
    {
-    "value": "13",
-    "label": "Days of English immersion"
+    "value": "20",
+    "label": "Days at camp, 8:00–17:00"
+   },
+   {
+    "value": "180+",
+    "label": "Hours of English immersion"
    },
    {
     "value": "28",
@@ -89,16 +93,16 @@
    {
     "value": "48",
     "label": "Film moments"
-   },
-   {
-    "value": "1",
-    "label": "Unforgettable summer"
    }
   ],
   "vi": [
    {
-    "value": "13",
-    "label": "Ngày hòa mình cùng tiếng Anh"
+    "value": "20",
+    "label": "Ngày ở trại, 8:00–17:00"
+   },
+   {
+    "value": "180+",
+    "label": "Giờ hòa mình cùng tiếng Anh"
    },
    {
     "value": "28",
@@ -107,10 +111,6 @@
    {
     "value": "48",
     "label": "Thước phim"
-   },
-   {
-    "value": "1",
-    "label": "Mùa hè đáng nhớ"
    }
   ]
  },
