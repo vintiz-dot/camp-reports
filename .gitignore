@@ -1,0 +1,10 @@
+node_modules/
+# pipeline artifacts — contain raw face data of minors, never publish
+data/face_thumbs/
+data/clusters/
+data/embeddings.npy
+data/faces.jsonl
+data/videos.jsonl
+*.pyc
+__pycache__/
+.DS_Store

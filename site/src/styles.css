@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  --color-ink: #101720;
+  --color-ink-soft: #3d4754;
+  --color-ivory: #faf8f3;
+  --color-ivory-deep: #f2eee5;
+  --color-gold: #a8873c;
+  --color-gold-soft: #cdb277;
+  --color-hairline: rgba(16, 23, 32, 0.12);
+}
+
+:root {
+  /* Per-student palette — overridden at runtime by ColorThief extraction */
+  --accent: #a8873c;
+  --accent-deep: #6e5722;
+  --accent-wash: rgba(168, 135, 60, 0.08);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-ivory);
+  color: var(--color-ink);
+  font-weight: 400;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* ---------- Editorial primitives ---------- */
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.kicker {
+  font-size: 0.6875rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--accent-deep);
+}
+
+.hairline {
+  border: 0;
+  border-top: 1px solid var(--color-hairline);
+}
+
+.section-no {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 300;
+  color: var(--accent);
+  font-size: 1rem;
+}
+
+/* ---------- Reveal-on-scroll ---------- */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+  html { scroll-behavior: auto; }
+}
+
+/* ---------- Hero ---------- */
+
+.hero-media {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* faces sit above centre in most shots — bias the crop upward */
+  object-position: 50% 30%;
+}
+
+.hero-scrim {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(10, 15, 22, 0.25) 0%, rgba(10, 15, 22, 0) 35%),
+    linear-gradient(4deg, rgba(10, 15, 22, 0.78) 0%, rgba(10, 15, 22, 0.28) 45%, rgba(10, 15, 22, 0) 70%);
+}
+
+.hero-name {
+  font-family: var(--font-display);
+  font-weight: 340;
+  font-size: clamp(3rem, 9vw, 6.5rem);
+  line-height: 1.02;
+  letter-spacing: -0.015em;
+  color: #fff;
+  text-wrap: balance;
+}
+
+/* ---------- Gallery masonry (CSS columns, aspect-ratio aware) ---------- */
+
+.masonry {
+  columns: 1;
+  column-gap: 1.25rem;
+}
+
+@media (min-width: 640px)  { .masonry { columns: 2; } }
+@media (min-width: 1024px) { .masonry { columns: 3; } }
+
+.masonry-wide { columns: 1 !important; }
+@media (min-width: 1024px) { .masonry-wide { columns: 2 !important; } }
+
+.tile {
+  break-inside: avoid;
+  margin-bottom: 1.25rem;
+  border-radius: 2px;
+  overflow: hidden;
+  position: relative;
+  background: var(--color-ivory-deep);
+  cursor: zoom-in;
+}
+
+.tile img, .tile video {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 1.1s cubic-bezier(0.16, 1, 0.3, 1), filter 0.6s ease;
+}
+
+.tile:hover img, .tile:hover video {
+  transform: scale(1.035);
+}
+
+.tile .play-badge {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+}
+
+.tile .play-badge span {
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: rgba(250, 248, 243, 0.88);
+  backdrop-filter: blur(6px);
+  color: var(--color-ink);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.tile:hover .play-badge span {
+  transform: scale(1.1);
+}
+
+/* ---------- Strength cards ---------- */
+
+.strength-card {
+  background: #fff;
+  border: 1px solid var(--color-hairline);
+  border-radius: 2px;
+  padding: 2rem;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.5s ease;
+}
+
+.strength-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 24px 48px -24px rgba(16, 23, 32, 0.18);
+}
+
+.strength-card .attr {
+  color: var(--accent-deep);
+}
+
+/* ---------- Stat band ---------- */
+
+.stat-value {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: clamp(2.2rem, 4.5vw, 3.4rem);
+  line-height: 1;
+  color: var(--accent-deep);
+}
+
+/* ---------- Buttons & links ---------- */
+
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--color-ink);
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--accent);
+  transition: color 0.3s ease, border-color 0.3s ease, letter-spacing 0.3s ease;
+}
+
+.btn-ghost:hover {
+  color: var(--accent-deep);
+  letter-spacing: 0.3em;
+}
+
+/* ---------- Lightbox ---------- */
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: rgba(12, 16, 22, 0.94);
+  backdrop-filter: blur(10px);
+  display: grid;
+  place-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.35s ease;
+}
+
+.lightbox.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.lightbox img, .lightbox video {
+  max-width: min(92vw, 1400px);
+  max-height: 88vh;
+  border-radius: 2px;
+}
+
+/* ---------- Student index cards ---------- */
+
+.student-card {
+  position: relative;
+  border-radius: 2px;
+  overflow: hidden;
+  aspect-ratio: 4 / 5;
+  background: var(--color-ivory-deep);
+  display: block;
+}
+
+.student-card img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1.1s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.student-card:hover img {
+  transform: scale(1.05);
+}
+
+.student-card .veil {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(6deg, rgba(10, 15, 22, 0.72) 0%, rgba(10, 15, 22, 0.05) 55%);
+}

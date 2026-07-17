@@ -1,0 +1,101 @@
+{
+ "slug": "sam",
+ "name": "Sam",
+ "displayName": "Sam",
+ "camp": {
+  "name": "HEC Summer Camp 2026",
+  "dates": "June — July 2026",
+  "class": ""
+ },
+ "hero": {
+  "type": "video",
+  "src": "media/sam/clip_01.mp4",
+  "poster": "media/sam/hero.jpg"
+ },
+ "remarks": {},
+ "stats": {
+  "en": [
+   {
+    "value": "3",
+    "label": "Camp days captured"
+   },
+   {
+    "value": "6",
+    "label": "Photographs"
+   },
+   {
+    "value": "27",
+    "label": "Film moments"
+   },
+   {
+    "value": "1",
+    "label": "Unforgettable summer"
+   }
+  ],
+  "vi": [
+   {
+    "value": "3",
+    "label": "Ngày trại được ghi lại"
+   },
+   {
+    "value": "6",
+    "label": "Bức ảnh"
+   },
+   {
+    "value": "27",
+    "label": "Thước phim"
+   },
+   {
+    "value": "1",
+    "label": "Mùa hè đáng nhớ"
+   }
+  ]
+ },
+ "gallery": [
+  {
+   "type": "image",
+   "src": "media/sam/photo_01.jpg",
+   "w": 1280,
+   "h": 1600
+  },
+  {
+   "type": "image",
+   "src": "media/sam/photo_02.jpg",
+   "w": 1280,
+   "h": 1600
+  },
+  {
+   "type": "video",
+   "src": "media/sam/clip_03.mp4",
+   "poster": "media/sam/clip_03.jpg"
+  },
+  {
+   "type": "video",
+   "src": "media/sam/clip_02.mp4",
+   "poster": "media/sam/clip_02.jpg"
+  },
+  {
+   "type": "video",
+   "src": "media/sam/clip_01.mp4",
+   "poster": "media/sam/clip_01.jpg"
+  },
+  {
+   "type": "image",
+   "src": "media/sam/photo_03.jpg",
+   "w": 1600,
+   "h": 1067
+  },
+  {
+   "type": "image",
+   "src": "media/sam/photo_04.jpg",
+   "w": 1600,
+   "h": 1066
+  },
+  {
+   "type": "image",
+   "src": "media/sam/photo_05.jpg",
+   "w": 1600,
+   "h": 1066
+  }
+ ]
+}

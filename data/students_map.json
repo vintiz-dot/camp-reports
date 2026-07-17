@@ -1,0 +1,22 @@
+{
+  "cluster_01": { "slug": "ronaldo", "name": "Ronaldo", "class": "" },
+  "cluster_02": { "slug": "pizza", "name": "Pizza", "class": "" },
+  "cluster_03": { "slug": "panda", "name": "Panda", "class": "" },
+  "cluster_05": { "slug": "chloe", "name": "Chloe", "class": "" },
+  "cluster_06": { "slug": "robot", "name": "Robot", "class": "" },
+  "cluster_07": { "slug": "moon", "name": "Moon", "class": "" },
+  "cluster_08": { "slug": "brian", "name": "Brian", "class": "" },
+  "cluster_09": { "slug": "kuromi", "name": "Kuromi", "class": "" },
+  "cluster_10": { "slug": "emma", "name": "Emma", "class": "" },
+  "cluster_11": { "slug": "rainbow", "name": "Rainbow", "class": "" },
+  "cluster_12": { "slug": "william", "name": "William", "class": "" },
+  "cluster_13": { "slug": "jessica", "name": "Jessica", "class": "" },
+  "cluster_14": { "slug": "bon", "name": "Bon", "class": "" },
+  "cluster_16": { "slug": "david", "name": "David", "class": "" },
+  "cluster_17": { "slug": "felix", "name": "Felix", "class": "" },
+  "cluster_18": { "slug": "gia-minh", "name": "Gia Minh", "class": "" },
+  "cluster_19": { "slug": "sammy", "name": "Sammy", "class": "" },
+  "cluster_21": { "slug": "elina", "name": "Elina", "class": "" },
+  "cluster_41": { "slug": "sam", "name": "Sam", "class": "" },
+  "cluster_45": { "slug": "pizza", "name": "Pizza", "class": "" }
+}
