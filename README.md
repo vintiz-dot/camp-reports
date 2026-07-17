@@ -28,11 +28,15 @@ camp-reports/
 
 ```powershell
 $py = "C:\Users\Dell\.venvs\camp-reports\Scripts\python.exe"
-& $py pipeline\scan_faces.py      # 1. scan photos
-& $py pipeline\cluster_faces.py   # 2. cluster -> data/clusters/review.html
-# 3. name clusters in data/students_map.json
-& $py pipeline\assign_videos.py   # 4. match videos
-& $py pipeline\process_media.py   # 5. crops + trims + per-student JSON
+& $py pipeline\scan_faces.py       # 1. scan photos (resumable)
+& $py pipeline\assign_new_faces.py # 2. attach new faces, stable cluster IDs
+& $py pipeline\assign_videos.py    # 3. match videos (resumable)
+& $py pipeline\process_media.py    # 4. crops + trims + per-student JSON
+& $py pipeline\ingest_folders.py   # 5. ALWAYS after 4: curated folders,
+                                   #    Elsa/Luka pages, extra_ gallery items
+& $py pipeline\fix_heroes.py       # 6. targeted hero overrides
+
+# cluster_faces.py is for the FIRST run only — it renumbers clusters.
 ```
 
 The pipeline never modifies original media; everything is written to
