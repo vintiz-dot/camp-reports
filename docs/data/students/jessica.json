@@ -70,18 +70,28 @@
    ]
   }
  },
+ "interviews": [
+  {
+   "youtubeId": "WIzYsa_DkNk",
+   "title": "Jessica's Summer Reflection — Part 1"
+  },
+  {
+   "youtubeId": "xkGgr6pTjYA",
+   "title": "Jessica's Reflections — Part 2"
+  }
+ ],
  "stats": {
   "en": [
    {
-    "value": "14",
-    "label": "Camp days captured"
+    "value": "15",
+    "label": "Days of English immersion"
    },
    {
-    "value": "30",
+    "value": "34",
     "label": "Photographs"
    },
    {
-    "value": "45",
+    "value": "47",
     "label": "Film moments"
    },
    {
@@ -91,15 +101,15 @@
   ],
   "vi": [
    {
-    "value": "14",
-    "label": "Ngày trại được ghi lại"
+    "value": "15",
+    "label": "Ngày hòa mình cùng tiếng Anh"
    },
    {
-    "value": "30",
+    "value": "34",
     "label": "Bức ảnh"
    },
    {
-    "value": "45",
+    "value": "47",
     "label": "Thước phim"
    },
    {
@@ -118,8 +128,8 @@
   {
    "type": "image",
    "src": "media/jessica/photo_02.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 1280,
+   "h": 1600
   },
   {
    "type": "video",
@@ -145,8 +155,8 @@
   {
    "type": "image",
    "src": "media/jessica/photo_04.jpg",
-   "w": 1280,
-   "h": 1600
+   "w": 1600,
+   "h": 1067
   },
   {
    "type": "image",

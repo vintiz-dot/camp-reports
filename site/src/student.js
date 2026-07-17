@@ -81,6 +81,41 @@ function renderHero() {
   else probe.addEventListener("load", () => applyPalette(probe));
 }
 
+function hasRemarks() {
+  const r = student.remarks || {};
+  return Boolean(r.en?.narrative?.length || r.vi?.narrative?.length);
+}
+
+function renumberSections() {
+  let n = 0;
+  document.querySelectorAll("main section").forEach((sec) => {
+    if (sec.style.display === "none") return;
+    const no = sec.querySelector(".section-no");
+    if (no) no.textContent = String(++n).padStart(2, "0");
+  });
+}
+
+function renderInterviews() {
+  const grid = $("interviewGrid");
+  grid.innerHTML = "";
+  const vids = student.interviews || [];
+  $("interviewSection").style.display = vids.length ? "" : "none";
+  grid.className = vids.length > 1 ? "grid md:grid-cols-2 gap-6" : "grid gap-6 max-w-3xl";
+  for (const v of vids) {
+    const wrap = document.createElement("div");
+    wrap.className = "reveal";
+    wrap.innerHTML = `
+      <div class="aspect-video overflow-hidden rounded-sm bg-ink">
+        <iframe class="w-full h-full" loading="lazy"
+          src="https://www.youtube-nocookie.com/embed/${v.youtubeId}?rel=0"
+          title="${v.title || student.name}"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </div>`;
+    grid.appendChild(wrap);
+  }
+}
+
 function renderText(lang) {
   const r = student.remarks?.[lang] || student.remarks?.en || {};
   document.title = `${student.name} — Summer Journal · HEC`;
@@ -95,6 +130,7 @@ function renderText(lang) {
     $("heroMeta").appendChild(span);
   }
 
+  const withRemarks = hasRemarks();
   $("remarkHeadline").textContent = r.headline || "";
   const body = $("remarkBody");
   body.innerHTML = "";
@@ -105,6 +141,9 @@ function renderText(lang) {
     body.appendChild(el);
   }
   $("teacherSign").textContent = r.signature || "Happy English Club";
+  // no written reflection yet: keep the page alive, promise the words
+  $("teacherSignWrap").style.display = withRemarks ? "" : "none";
+  $("remarksPending").classList.toggle("hidden", withRemarks);
 
   const cards = $("strengthCards");
   cards.innerHTML = "";
@@ -143,8 +182,10 @@ function renderText(lang) {
     el.textContent = p;
     next.appendChild(el);
   }
+  $("nextSection").style.display = (r.nextSteps || []).length ? "" : "none";
 
   applyStrings(lang);
+  renumberSections();
   watchReveals();
 }
 
@@ -217,6 +258,7 @@ async function boot() {
     return;
   }
   renderHero();
+  renderInterviews();
   renderText(currentLang());
   renderGallery();
   initTopbarTint();

@@ -70,14 +70,15 @@
    ]
   }
  },
+ "interviews": [],
  "stats": {
   "en": [
    {
     "value": "4",
-    "label": "Camp days captured"
+    "label": "Days of English immersion"
    },
    {
-    "value": "21",
+    "value": "22",
     "label": "Photographs"
    },
    {
@@ -92,10 +93,10 @@
   "vi": [
    {
     "value": "4",
-    "label": "Ngày trại được ghi lại"
+    "label": "Ngày hòa mình cùng tiếng Anh"
    },
    {
-    "value": "21",
+    "value": "22",
     "label": "Bức ảnh"
    },
    {
@@ -118,8 +119,8 @@
   {
    "type": "image",
    "src": "media/gia-minh/photo_02.jpg",
-   "w": 1280,
-   "h": 1600
+   "w": 1600,
+   "h": 1066
   },
   {
    "type": "video",
@@ -139,8 +140,8 @@
   {
    "type": "image",
    "src": "media/gia-minh/photo_03.jpg",
-   "w": 1280,
-   "h": 1600
+   "w": 1600,
+   "h": 1067
   },
   {
    "type": "image",
@@ -152,7 +153,7 @@
    "type": "image",
    "src": "media/gia-minh/photo_05.jpg",
    "w": 1600,
-   "h": 1066
+   "h": 1067
   },
   {
    "type": "image",
@@ -163,50 +164,32 @@
   {
    "type": "image",
    "src": "media/gia-minh/photo_07.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 936,
+   "h": 1170
   },
   {
    "type": "image",
    "src": "media/gia-minh/photo_08.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 530,
+   "h": 354
   },
   {
    "type": "image",
    "src": "media/gia-minh/photo_09.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 897,
+   "h": 598
   },
   {
    "type": "image",
    "src": "media/gia-minh/photo_10.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 749,
+   "h": 499
   },
   {
    "type": "image",
    "src": "media/gia-minh/photo_11.jpg",
-   "w": 1600,
-   "h": 1067
-  },
-  {
-   "type": "image",
-   "src": "media/gia-minh/photo_12.jpg",
-   "w": 1600,
-   "h": 1067
-  },
-  {
-   "type": "image",
-   "src": "media/gia-minh/photo_13.jpg",
-   "w": 1600,
-   "h": 1067
-  },
-  {
-   "type": "image",
-   "src": "media/gia-minh/photo_14.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 436,
+   "h": 546
   }
  ]
 }

@@ -70,11 +70,12 @@
    ]
   }
  },
+ "interviews": [],
  "stats": {
   "en": [
    {
     "value": "9",
-    "label": "Camp days captured"
+    "label": "Days of English immersion"
    },
    {
     "value": "43",
@@ -92,7 +93,7 @@
   "vi": [
    {
     "value": "9",
-    "label": "Ngày trại được ghi lại"
+    "label": "Ngày hòa mình cùng tiếng Anh"
    },
    {
     "value": "43",
@@ -163,14 +164,14 @@
   {
    "type": "image",
    "src": "media/kuromi/photo_07.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 1280,
+   "h": 1600
   },
   {
    "type": "image",
    "src": "media/kuromi/photo_08.jpg",
    "w": 1600,
-   "h": 1067
+   "h": 1066
   },
   {
    "type": "image",
@@ -194,19 +195,19 @@
    "type": "image",
    "src": "media/kuromi/photo_12.jpg",
    "w": 1600,
-   "h": 1067
+   "h": 1066
   },
   {
    "type": "image",
    "src": "media/kuromi/photo_13.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 1232,
+   "h": 821
   },
   {
    "type": "image",
    "src": "media/kuromi/photo_14.jpg",
-   "w": 1280,
-   "h": 1600
+   "w": 1591,
+   "h": 1061
   }
  ]
 }

@@ -138,8 +138,8 @@ def build_stats(photo_files, video_files, n_photos, n_videos):
             if (m := DATE_RE.match(f))}
     en, vi = [], []
     if days:
-        en.append({"value": str(len(days)), "label": "Camp days captured"})
-        vi.append({"value": str(len(days)), "label": "Ngày trại được ghi lại"})
+        en.append({"value": str(len(days)), "label": "Days of English immersion"})
+        vi.append({"value": str(len(days)), "label": "Ngày hòa mình cùng tiếng Anh"})
     en.append({"value": str(n_photos), "label": "Photographs"})
     vi.append({"value": str(n_photos), "label": "Bức ảnh"})
     if n_videos:
@@ -160,9 +160,15 @@ def load_remarks():
     return remarks
 
 
+def load_interviews():
+    p = DATA / "interviews.json"
+    return json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
+
+
 def main():
     students_map = json.loads((DATA / "students_map.json").read_text(encoding="utf-8"))
     all_remarks = load_remarks()
+    all_interviews = load_interviews()
     clusters = {c["id"]: c for c in
                 json.loads((DATA / "clusters.json").read_text(encoding="utf-8"))["clusters"]}
     face_recs = load_jsonl(DATA / "faces.jsonl")
@@ -215,10 +221,21 @@ def main():
             candidates.append((prominence, fid, info))
         candidates.sort(key=lambda c: -c[0])
 
+        # diversity: at most one photo per capture-minute (kills burst
+        # duplicates) and at most three per camp day, so galleries span
+        # the whole summer instead of one photogenic afternoon
         gallery, used_files = [], set()
+        used_minutes, day_counts = set(), {}
         hero = None
         for prom, fid, info in candidates:
             if info["file"] in used_files:
+                continue
+            m = DATE_RE.match(info["file"])
+            minute_key = info["file"][:16] if m else None
+            day_key = m.group(0) if m else None
+            if minute_key and minute_key in used_minutes:
+                continue
+            if day_key and day_counts.get(day_key, 0) >= 3:
                 continue
             src = ROOT / info["file"]
             if not src.exists():
@@ -229,6 +246,10 @@ def main():
                 print(f"   skip {info['file']}: {e}")
                 continue
             used_files.add(info["file"])
+            if minute_key:
+                used_minutes.add(minute_key)
+            if day_key:
+                day_counts[day_key] = day_counts.get(day_key, 0) + 1
             gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
             if hero is None and sharpness(gray) > 60:
                 crop = crop_around_face(img, info["box"], aspect=16 / 10, zoom=6.5)
@@ -310,6 +331,7 @@ def main():
                      "class": meta.get("class", "")},
             "hero": hero or (gallery[0] if gallery else None),
             "remarks": all_remarks.get(slug, meta.get("remarks", {})),
+            "interviews": all_interviews.get(slug, []),
             "stats": build_stats(merged_files, video_files,
                                  len(merged_files), len(video_files)),
             "gallery": gallery,

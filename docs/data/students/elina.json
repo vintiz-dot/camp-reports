@@ -70,18 +70,19 @@
    ]
   }
  },
+ "interviews": [],
  "stats": {
   "en": [
    {
-    "value": "6",
-    "label": "Camp days captured"
+    "value": "8",
+    "label": "Days of English immersion"
    },
    {
-    "value": "17",
+    "value": "23",
     "label": "Photographs"
    },
    {
-    "value": "43",
+    "value": "48",
     "label": "Film moments"
    },
    {
@@ -91,15 +92,15 @@
   ],
   "vi": [
    {
-    "value": "6",
-    "label": "Ngày trại được ghi lại"
+    "value": "8",
+    "label": "Ngày hòa mình cùng tiếng Anh"
    },
    {
-    "value": "17",
+    "value": "23",
     "label": "Bức ảnh"
    },
    {
-    "value": "43",
+    "value": "48",
     "label": "Thước phim"
    },
    {
@@ -109,6 +110,36 @@
   ]
  },
  "gallery": [
+  {
+   "type": "video",
+   "src": "media/elina/extra_clip_01.mp4",
+   "poster": "media/elina/extra_clip_01.jpg",
+   "landscape": false
+  },
+  {
+   "type": "video",
+   "src": "media/elina/extra_clip_02.mp4",
+   "poster": "media/elina/extra_clip_02.jpg",
+   "landscape": false
+  },
+  {
+   "type": "video",
+   "src": "media/elina/extra_clip_03.mp4",
+   "poster": "media/elina/extra_clip_03.jpg",
+   "landscape": false
+  },
+  {
+   "type": "image",
+   "src": "media/elina/extra_photo_01.jpg",
+   "w": 1600,
+   "h": 1200
+  },
+  {
+   "type": "image",
+   "src": "media/elina/extra_photo_02.jpg",
+   "w": 1600,
+   "h": 1200
+  },
   {
    "type": "image",
    "src": "media/elina/photo_01.jpg",
@@ -193,20 +224,20 @@
   {
    "type": "image",
    "src": "media/elina/photo_12.jpg",
-   "w": 1600,
-   "h": 1066
+   "w": 1279,
+   "h": 1600
   },
   {
    "type": "image",
    "src": "media/elina/photo_13.jpg",
    "w": 1600,
-   "h": 1067
+   "h": 1066
   },
   {
    "type": "image",
    "src": "media/elina/photo_14.jpg",
    "w": 1600,
-   "h": 1066
+   "h": 1067
   }
  ]
 }

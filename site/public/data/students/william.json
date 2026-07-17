@@ -70,18 +70,24 @@
    ]
   }
  },
+ "interviews": [
+  {
+   "youtubeId": "XLKBOWDRHLA",
+   "title": "William's Reflection"
+  }
+ ],
  "stats": {
   "en": [
    {
-    "value": "13",
-    "label": "Camp days captured"
+    "value": "16",
+    "label": "Days of English immersion"
    },
    {
-    "value": "35",
+    "value": "39",
     "label": "Photographs"
    },
    {
-    "value": "48",
+    "value": "49",
     "label": "Film moments"
    },
    {
@@ -91,15 +97,15 @@
   ],
   "vi": [
    {
-    "value": "13",
-    "label": "Ngày trại được ghi lại"
+    "value": "16",
+    "label": "Ngày hòa mình cùng tiếng Anh"
    },
    {
-    "value": "35",
+    "value": "39",
     "label": "Bức ảnh"
    },
    {
-    "value": "48",
+    "value": "49",
     "label": "Thước phim"
    },
    {
@@ -118,8 +124,8 @@
   {
    "type": "image",
    "src": "media/william/photo_02.jpg",
-   "w": 1600,
-   "h": 1066
+   "w": 1280,
+   "h": 1600
   },
   {
    "type": "video",
@@ -140,55 +146,55 @@
    "type": "image",
    "src": "media/william/photo_03.jpg",
    "w": 1600,
-   "h": 1067
+   "h": 1066
   },
   {
    "type": "image",
    "src": "media/william/photo_04.jpg",
-   "w": 1280,
-   "h": 1600
-  },
-  {
-   "type": "image",
-   "src": "media/william/photo_05.jpg",
    "w": 1600,
    "h": 1067
   },
   {
    "type": "image",
+   "src": "media/william/photo_05.jpg",
+   "w": 1280,
+   "h": 1600
+  },
+  {
+   "type": "image",
    "src": "media/william/photo_06.jpg",
+   "w": 1280,
+   "h": 1600
+  },
+  {
+   "type": "image",
+   "src": "media/william/photo_07.jpg",
+   "w": 1600,
+   "h": 1067
+  },
+  {
+   "type": "image",
+   "src": "media/william/photo_08.jpg",
    "w": 1600,
    "h": 1066
   },
   {
    "type": "image",
-   "src": "media/william/photo_07.jpg",
+   "src": "media/william/photo_09.jpg",
    "w": 1280,
    "h": 1600
   },
   {
    "type": "image",
-   "src": "media/william/photo_08.jpg",
+   "src": "media/william/photo_10.jpg",
    "w": 1279,
    "h": 1600
   },
   {
    "type": "image",
-   "src": "media/william/photo_09.jpg",
-   "w": 1600,
-   "h": 1067
-  },
-  {
-   "type": "image",
-   "src": "media/william/photo_10.jpg",
-   "w": 1600,
-   "h": 1066
-  },
-  {
-   "type": "image",
    "src": "media/william/photo_11.jpg",
    "w": 1600,
-   "h": 1066
+   "h": 1067
   },
   {
    "type": "image",
@@ -200,13 +206,13 @@
    "type": "image",
    "src": "media/william/photo_13.jpg",
    "w": 1600,
-   "h": 1067
+   "h": 1066
   },
   {
    "type": "image",
    "src": "media/william/photo_14.jpg",
-   "w": 1600,
-   "h": 1066
+   "w": 1280,
+   "h": 1600
   }
  ]
 }

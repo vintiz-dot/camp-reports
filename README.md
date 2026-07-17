@@ -58,7 +58,18 @@ All data access goes through `site/src/data.js`. To move from static
 JSON to Supabase, replace the two fetches there with supabase-js
 queries — no UI changes needed.
 
+## Pages
+
+- `index.html` — marketing landing page (Vietnamese-first, EN toggle)
+- `journals.html` — private directory of student journals (noindex)
+- `student.html?s=<slug>` — individual student journal
+
 ## Deploy (GitHub Pages)
 
 1. Repo → Settings → Pages → "Deploy from a branch" → `main` / `docs/`.
+   (Without this, GitHub renders the README with Jekyll instead of the site.)
 2. `npm run build` in `site/`, then commit `docs/` and push.
+3. Live at `https://vintiz-dot.github.io/camp-reports/`.
+
+Share with parents: send each family their child's direct link,
+`https://vintiz-dot.github.io/camp-reports/student.html?s=<slug>`.

@@ -70,11 +70,12 @@
    ]
   }
  },
+ "interviews": [],
  "stats": {
   "en": [
    {
     "value": "8",
-    "label": "Camp days captured"
+    "label": "Days of English immersion"
    },
    {
     "value": "45",
@@ -92,7 +93,7 @@
   "vi": [
    {
     "value": "8",
-    "label": "Ngày trại được ghi lại"
+    "label": "Ngày hòa mình cùng tiếng Anh"
    },
    {
     "value": "45",
@@ -139,14 +140,14 @@
   {
    "type": "image",
    "src": "media/moon/photo_03.jpg",
-   "w": 1280,
+   "w": 1281,
    "h": 1600
   },
   {
    "type": "image",
    "src": "media/moon/photo_04.jpg",
-   "w": 1281,
-   "h": 1600
+   "w": 1600,
+   "h": 1067
   },
   {
    "type": "image",
@@ -163,8 +164,8 @@
   {
    "type": "image",
    "src": "media/moon/photo_07.jpg",
-   "w": 1280,
-   "h": 1600
+   "w": 960,
+   "h": 1200
   },
   {
    "type": "image",
@@ -182,31 +183,31 @@
    "type": "image",
    "src": "media/moon/photo_10.jpg",
    "w": 1600,
-   "h": 1066
+   "h": 1067
   },
   {
    "type": "image",
    "src": "media/moon/photo_11.jpg",
    "w": 1600,
-   "h": 1066
+   "h": 1067
   },
   {
    "type": "image",
    "src": "media/moon/photo_12.jpg",
-   "w": 960,
-   "h": 1200
-  },
-  {
-   "type": "image",
-   "src": "media/moon/photo_13.jpg",
    "w": 1600,
    "h": 1067
   },
   {
    "type": "image",
+   "src": "media/moon/photo_13.jpg",
+   "w": 1276,
+   "h": 850
+  },
+  {
+   "type": "image",
    "src": "media/moon/photo_14.jpg",
-   "w": 1140,
-   "h": 1425
+   "w": 998,
+   "h": 665
   }
  ]
 }

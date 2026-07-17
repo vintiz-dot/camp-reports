@@ -70,18 +70,19 @@
    ]
   }
  },
+ "interviews": [],
  "stats": {
   "en": [
    {
-    "value": "8",
-    "label": "Camp days captured"
+    "value": "9",
+    "label": "Days of English immersion"
    },
    {
-    "value": "22",
+    "value": "23",
     "label": "Photographs"
    },
    {
-    "value": "36",
+    "value": "37",
     "label": "Film moments"
    },
    {
@@ -91,15 +92,15 @@
   ],
   "vi": [
    {
-    "value": "8",
-    "label": "Ngày trại được ghi lại"
+    "value": "9",
+    "label": "Ngày hòa mình cùng tiếng Anh"
    },
    {
-    "value": "22",
+    "value": "23",
     "label": "Bức ảnh"
    },
    {
-    "value": "36",
+    "value": "37",
     "label": "Thước phim"
    },
    {
@@ -111,6 +112,30 @@
  "gallery": [
   {
    "type": "image",
+   "src": "media/felix/extra_photo_01.jpg",
+   "w": 1200,
+   "h": 1600
+  },
+  {
+   "type": "video",
+   "src": "media/felix/extra_clip_01.mp4",
+   "poster": "media/felix/extra_clip_01.jpg",
+   "landscape": false
+  },
+  {
+   "type": "video",
+   "src": "media/felix/extra_clip_02.mp4",
+   "poster": "media/felix/extra_clip_02.jpg",
+   "landscape": false
+  },
+  {
+   "type": "video",
+   "src": "media/felix/extra_clip_03.mp4",
+   "poster": "media/felix/extra_clip_03.jpg",
+   "landscape": false
+  },
+  {
+   "type": "image",
    "src": "media/felix/photo_01.jpg",
    "w": 1280,
    "h": 1600
@@ -118,8 +143,8 @@
   {
    "type": "image",
    "src": "media/felix/photo_02.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 1280,
+   "h": 1600
   },
   {
    "type": "video",
@@ -146,7 +171,7 @@
    "type": "image",
    "src": "media/felix/photo_04.jpg",
    "w": 1600,
-   "h": 1066
+   "h": 1067
   },
   {
    "type": "image",
@@ -163,14 +188,14 @@
   {
    "type": "image",
    "src": "media/felix/photo_07.jpg",
-   "w": 1280,
-   "h": 1600
+   "w": 1600,
+   "h": 1067
   },
   {
    "type": "image",
    "src": "media/felix/photo_08.jpg",
    "w": 1600,
-   "h": 1067
+   "h": 1066
   },
   {
    "type": "image",
@@ -187,26 +212,26 @@
   {
    "type": "image",
    "src": "media/felix/photo_11.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 1388,
+   "h": 925
   },
   {
    "type": "image",
    "src": "media/felix/photo_12.jpg",
-   "w": 1600,
-   "h": 1066
+   "w": 1276,
+   "h": 850
   },
   {
    "type": "image",
    "src": "media/felix/photo_13.jpg",
-   "w": 1599,
-   "h": 1066
+   "w": 1240,
+   "h": 826
   },
   {
    "type": "image",
    "src": "media/felix/photo_14.jpg",
-   "w": 1600,
-   "h": 1066
+   "w": 600,
+   "h": 400
   }
  ]
 }

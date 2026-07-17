@@ -13,11 +13,12 @@
   "poster": "media/chloe/hero.jpg"
  },
  "remarks": {},
+ "interviews": [],
  "stats": {
   "en": [
    {
     "value": "8",
-    "label": "Camp days captured"
+    "label": "Days of English immersion"
    },
    {
     "value": "49",
@@ -35,7 +36,7 @@
   "vi": [
    {
     "value": "8",
-    "label": "Ngày trại được ghi lại"
+    "label": "Ngày hòa mình cùng tiếng Anh"
    },
    {
     "value": "49",
@@ -61,8 +62,8 @@
   {
    "type": "image",
    "src": "media/chloe/photo_02.jpg",
-   "w": 1280,
-   "h": 1600
+   "w": 1600,
+   "h": 1067
   },
   {
    "type": "video",
@@ -82,14 +83,14 @@
   {
    "type": "image",
    "src": "media/chloe/photo_03.jpg",
-   "w": 1280,
-   "h": 1600
+   "w": 1600,
+   "h": 1067
   },
   {
    "type": "image",
    "src": "media/chloe/photo_04.jpg",
    "w": 1600,
-   "h": 1067
+   "h": 1066
   },
   {
    "type": "image",
@@ -107,7 +108,7 @@
    "type": "image",
    "src": "media/chloe/photo_07.jpg",
    "w": 1600,
-   "h": 1066
+   "h": 1067
   },
   {
    "type": "image",
@@ -130,8 +131,8 @@
   {
    "type": "image",
    "src": "media/chloe/photo_11.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 1085,
+   "h": 722
   },
   {
    "type": "image",
@@ -142,14 +143,14 @@
   {
    "type": "image",
    "src": "media/chloe/photo_13.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 1077,
+   "h": 717
   },
   {
    "type": "image",
    "src": "media/chloe/photo_14.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 1280,
+   "h": 854
   }
  ]
 }

@@ -70,14 +70,15 @@
    ]
   }
  },
+ "interviews": [],
  "stats": {
   "en": [
    {
-    "value": "7",
-    "label": "Camp days captured"
+    "value": "8",
+    "label": "Days of English immersion"
    },
    {
-    "value": "39",
+    "value": "40",
     "label": "Photographs"
    },
    {
@@ -91,11 +92,11 @@
   ],
   "vi": [
    {
-    "value": "7",
-    "label": "Ngày trại được ghi lại"
+    "value": "8",
+    "label": "Ngày hòa mình cùng tiếng Anh"
    },
    {
-    "value": "39",
+    "value": "40",
     "label": "Bức ảnh"
    },
    {
@@ -157,8 +158,8 @@
   {
    "type": "image",
    "src": "media/emma/photo_06.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 1280,
+   "h": 1600
   },
   {
    "type": "image",
@@ -170,43 +171,43 @@
    "type": "image",
    "src": "media/emma/photo_08.jpg",
    "w": 1600,
-   "h": 1067
+   "h": 1066
   },
   {
    "type": "image",
    "src": "media/emma/photo_09.jpg",
-   "w": 1280,
-   "h": 1600
+   "w": 1600,
+   "h": 1067
   },
   {
    "type": "image",
    "src": "media/emma/photo_10.jpg",
-   "w": 1280,
-   "h": 1600
+   "w": 1600,
+   "h": 1067
   },
   {
    "type": "image",
    "src": "media/emma/photo_11.jpg",
    "w": 1600,
-   "h": 1066
+   "h": 1067
   },
   {
    "type": "image",
    "src": "media/emma/photo_12.jpg",
    "w": 1600,
-   "h": 1067
+   "h": 1066
   },
   {
    "type": "image",
    "src": "media/emma/photo_13.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 1077,
+   "h": 1347
   },
   {
    "type": "image",
    "src": "media/emma/photo_14.jpg",
-   "w": 1600,
-   "h": 1066
+   "w": 1276,
+   "h": 850
   }
  ]
 }

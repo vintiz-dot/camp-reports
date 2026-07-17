@@ -4,6 +4,8 @@ export const UI_STRINGS = {
   en: {
     heroKicker: "Summer Camp 2026 · Student Journal",
     narrativeKicker: "The Journey",
+    interviewKicker: "In Their Own Words",
+    pendingRemarks: "The teacher's written reflection is being prepared with care — it will appear here soon.",
     strengthsKicker: "Signature Strengths",
     galleryKicker: "Moments in the Making",
     nextKicker: "The Path Ahead",
@@ -19,6 +21,8 @@ export const UI_STRINGS = {
   vi: {
     heroKicker: "Trại Hè 2026 · Nhật Ký Học Viên",
     narrativeKicker: "Hành Trình",
+    interviewKicker: "Con Tự Kể",
+    pendingRemarks: "Nhận xét của giáo viên đang được chăm chút hoàn thiện — sẽ sớm xuất hiện tại đây.",
     strengthsKicker: "Điểm Mạnh Nổi Bật",
     galleryKicker: "Những Khoảnh Khắc",
     nextKicker: "Chặng Đường Phía Trước",

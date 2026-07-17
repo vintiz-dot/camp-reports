@@ -70,18 +70,24 @@
    ]
   }
  },
+ "interviews": [
+  {
+   "youtubeId": "F_NG1XgoIY8",
+   "title": "David's Reflection"
+  }
+ ],
  "stats": {
   "en": [
    {
-    "value": "11",
-    "label": "Camp days captured"
+    "value": "13",
+    "label": "Days of English immersion"
    },
    {
-    "value": "24",
+    "value": "28",
     "label": "Photographs"
    },
    {
-    "value": "45",
+    "value": "48",
     "label": "Film moments"
    },
    {
@@ -91,15 +97,15 @@
   ],
   "vi": [
    {
-    "value": "11",
-    "label": "Ngày trại được ghi lại"
+    "value": "13",
+    "label": "Ngày hòa mình cùng tiếng Anh"
    },
    {
-    "value": "24",
+    "value": "28",
     "label": "Bức ảnh"
    },
    {
-    "value": "45",
+    "value": "48",
     "label": "Thước phim"
    },
    {
@@ -118,8 +124,8 @@
   {
    "type": "image",
    "src": "media/david/photo_02.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 1280,
+   "h": 1600
   },
   {
    "type": "video",
@@ -139,14 +145,14 @@
   {
    "type": "image",
    "src": "media/david/photo_03.jpg",
-   "w": 1280,
-   "h": 1600
+   "w": 1600,
+   "h": 1067
   },
   {
    "type": "image",
    "src": "media/david/photo_04.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 1280,
+   "h": 1600
   },
   {
    "type": "image",
@@ -199,8 +205,8 @@
   {
    "type": "image",
    "src": "media/david/photo_13.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 1280,
+   "h": 854
   },
   {
    "type": "image",

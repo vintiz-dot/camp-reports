@@ -70,18 +70,24 @@
    ]
   }
  },
+ "interviews": [
+  {
+   "youtubeId": "ruqrCPYxxdA",
+   "title": "Robot's Reflection"
+  }
+ ],
  "stats": {
   "en": [
    {
-    "value": "15",
-    "label": "Camp days captured"
+    "value": "16",
+    "label": "Days of English immersion"
    },
    {
-    "value": "46",
+    "value": "49",
     "label": "Photographs"
    },
    {
-    "value": "67",
+    "value": "70",
     "label": "Film moments"
    },
    {
@@ -91,15 +97,15 @@
   ],
   "vi": [
    {
-    "value": "15",
-    "label": "Ngày trại được ghi lại"
+    "value": "16",
+    "label": "Ngày hòa mình cùng tiếng Anh"
    },
    {
-    "value": "46",
+    "value": "49",
     "label": "Bức ảnh"
    },
    {
-    "value": "67",
+    "value": "70",
     "label": "Thước phim"
    },
    {
@@ -110,10 +116,16 @@
  },
  "gallery": [
   {
+   "type": "video",
+   "src": "media/robot/extra_clip_01.mp4",
+   "poster": "media/robot/extra_clip_01.jpg",
+   "landscape": false
+  },
+  {
    "type": "image",
    "src": "media/robot/photo_01.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 1280,
+   "h": 1600
   },
   {
    "type": "image",
@@ -145,14 +157,14 @@
   {
    "type": "image",
    "src": "media/robot/photo_04.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 1280,
+   "h": 1600
   },
   {
    "type": "image",
    "src": "media/robot/photo_05.jpg",
-   "w": 1280,
-   "h": 1600
+   "w": 1600,
+   "h": 1067
   },
   {
    "type": "image",
@@ -163,26 +175,26 @@
   {
    "type": "image",
    "src": "media/robot/photo_07.jpg",
-   "w": 1600,
-   "h": 1067
-  },
-  {
-   "type": "image",
-   "src": "media/robot/photo_08.jpg",
    "w": 1280,
    "h": 1600
   },
   {
    "type": "image",
+   "src": "media/robot/photo_08.jpg",
+   "w": 1600,
+   "h": 1067
+  },
+  {
+   "type": "image",
    "src": "media/robot/photo_09.jpg",
-   "w": 1281,
+   "w": 1280,
    "h": 1600
   },
   {
    "type": "image",
    "src": "media/robot/photo_10.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 1281,
+   "h": 1600
   },
   {
    "type": "image",
@@ -200,13 +212,13 @@
    "type": "image",
    "src": "media/robot/photo_13.jpg",
    "w": 1600,
-   "h": 1067
+   "h": 1066
   },
   {
    "type": "image",
    "src": "media/robot/photo_14.jpg",
-   "w": 1600,
-   "h": 1066
+   "w": 1280,
+   "h": 1600
   }
  ]
 }

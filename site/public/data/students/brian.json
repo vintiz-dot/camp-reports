@@ -70,11 +70,12 @@
    ]
   }
  },
+ "interviews": [],
  "stats": {
   "en": [
    {
     "value": "11",
-    "label": "Camp days captured"
+    "label": "Days of English immersion"
    },
    {
     "value": "42",
@@ -92,7 +93,7 @@
   "vi": [
    {
     "value": "11",
-    "label": "Ngày trại được ghi lại"
+    "label": "Ngày hòa mình cùng tiếng Anh"
    },
    {
     "value": "42",
@@ -205,8 +206,8 @@
   {
    "type": "image",
    "src": "media/brian/photo_14.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 1131,
+   "h": 754
   }
  ]
 }

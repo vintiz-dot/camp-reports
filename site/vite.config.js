@@ -13,6 +13,7 @@ export default defineConfig({
       input: {
         index: resolve(__dirname, "index.html"),
         student: resolve(__dirname, "student.html"),
+        journals: resolve(__dirname, "journals.html"),
       },
     },
   },

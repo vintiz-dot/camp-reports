@@ -70,18 +70,24 @@
    ]
   }
  },
+ "interviews": [
+  {
+   "youtubeId": "G3ZjYQe7gEw",
+   "title": "Ronaldo's Reflection"
+  }
+ ],
  "stats": {
   "en": [
    {
-    "value": "14",
-    "label": "Camp days captured"
+    "value": "16",
+    "label": "Days of English immersion"
    },
    {
-    "value": "69",
+    "value": "80",
     "label": "Photographs"
    },
    {
-    "value": "70",
+    "value": "80",
     "label": "Film moments"
    },
    {
@@ -91,15 +97,15 @@
   ],
   "vi": [
    {
-    "value": "14",
-    "label": "Ngày trại được ghi lại"
+    "value": "16",
+    "label": "Ngày hòa mình cùng tiếng Anh"
    },
    {
-    "value": "69",
+    "value": "80",
     "label": "Bức ảnh"
    },
    {
-    "value": "70",
+    "value": "80",
     "label": "Thước phim"
    },
    {
@@ -109,6 +115,42 @@
   ]
  },
  "gallery": [
+  {
+   "type": "video",
+   "src": "media/ronaldo/extra_clip_01.mp4",
+   "poster": "media/ronaldo/extra_clip_01.jpg",
+   "landscape": false
+  },
+  {
+   "type": "video",
+   "src": "media/ronaldo/extra_clip_02.mp4",
+   "poster": "media/ronaldo/extra_clip_02.jpg",
+   "landscape": false
+  },
+  {
+   "type": "image",
+   "src": "media/ronaldo/extra_photo_01.jpg",
+   "w": 1200,
+   "h": 1600
+  },
+  {
+   "type": "image",
+   "src": "media/ronaldo/extra_photo_02.jpg",
+   "w": 1200,
+   "h": 1600
+  },
+  {
+   "type": "image",
+   "src": "media/ronaldo/extra_photo_03.jpg",
+   "w": 1200,
+   "h": 1600
+  },
+  {
+   "type": "image",
+   "src": "media/ronaldo/extra_photo_04.jpg",
+   "w": 1200,
+   "h": 1600
+  },
   {
    "type": "image",
    "src": "media/ronaldo/photo_01.jpg",
@@ -151,38 +193,38 @@
   {
    "type": "image",
    "src": "media/ronaldo/photo_05.jpg",
-   "w": 1600,
-   "h": 1067
-  },
-  {
-   "type": "image",
-   "src": "media/ronaldo/photo_06.jpg",
-   "w": 1600,
-   "h": 1067
-  },
-  {
-   "type": "image",
-   "src": "media/ronaldo/photo_07.jpg",
-   "w": 1600,
-   "h": 1066
-  },
-  {
-   "type": "image",
-   "src": "media/ronaldo/photo_08.jpg",
-   "w": 1600,
-   "h": 1067
-  },
-  {
-   "type": "image",
-   "src": "media/ronaldo/photo_09.jpg",
    "w": 1280,
    "h": 1600
   },
   {
    "type": "image",
-   "src": "media/ronaldo/photo_10.jpg",
+   "src": "media/ronaldo/photo_06.jpg",
+   "w": 1280,
+   "h": 1600
+  },
+  {
+   "type": "image",
+   "src": "media/ronaldo/photo_07.jpg",
    "w": 1600,
    "h": 1067
+  },
+  {
+   "type": "image",
+   "src": "media/ronaldo/photo_08.jpg",
+   "w": 1280,
+   "h": 1600
+  },
+  {
+   "type": "image",
+   "src": "media/ronaldo/photo_09.jpg",
+   "w": 1600,
+   "h": 1067
+  },
+  {
+   "type": "image",
+   "src": "media/ronaldo/photo_10.jpg",
+   "w": 1280,
+   "h": 1600
   },
   {
    "type": "image",
@@ -200,7 +242,7 @@
    "type": "image",
    "src": "media/ronaldo/photo_13.jpg",
    "w": 1600,
-   "h": 1066
+   "h": 1067
   },
   {
    "type": "image",

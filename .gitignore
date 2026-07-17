@@ -2,9 +2,22 @@ node_modules/
 # pipeline artifacts — contain raw face data of minors, never publish
 data/face_thumbs/
 data/clusters/
+data/clusters.json
 data/embeddings.npy
 data/faces.jsonl
 data/videos.jsonl
+# raw curated source folders dropped in by the coach (huge originals)
+/elina/
+/elsa/
+/felix/
+/luka/
+/pizza/
+/rainbow/
+/robot/
+/ronaldo/
+/sam/
+# source copy of processed media — docs/ carries the deployed copy
+site/public/media/
 *.pyc
 __pycache__/
 .DS_Store

@@ -70,18 +70,24 @@
    ]
   }
  },
+ "interviews": [
+  {
+   "youtubeId": "HvydZGzI32k",
+   "title": "Pizza's Reflection"
+  }
+ ],
  "stats": {
   "en": [
    {
-    "value": "15",
-    "label": "Camp days captured"
+    "value": "18",
+    "label": "Days of English immersion"
    },
    {
-    "value": "62",
+    "value": "66",
     "label": "Photographs"
    },
    {
-    "value": "83",
+    "value": "86",
     "label": "Film moments"
    },
    {
@@ -91,15 +97,15 @@
   ],
   "vi": [
    {
-    "value": "15",
-    "label": "Ngày trại được ghi lại"
+    "value": "18",
+    "label": "Ngày hòa mình cùng tiếng Anh"
    },
    {
-    "value": "62",
+    "value": "66",
     "label": "Bức ảnh"
    },
    {
-    "value": "83",
+    "value": "86",
     "label": "Thước phim"
    },
    {
@@ -109,6 +115,12 @@
   ]
  },
  "gallery": [
+  {
+   "type": "video",
+   "src": "media/pizza/extra_clip_01.mp4",
+   "poster": "media/pizza/extra_clip_01.jpg",
+   "landscape": false
+  },
   {
    "type": "image",
    "src": "media/pizza/photo_01.jpg",
@@ -158,31 +170,31 @@
    "type": "image",
    "src": "media/pizza/photo_06.jpg",
    "w": 1600,
-   "h": 1066
+   "h": 1067
   },
   {
    "type": "image",
    "src": "media/pizza/photo_07.jpg",
-   "w": 1280,
-   "h": 1600
+   "w": 1600,
+   "h": 1067
   },
   {
    "type": "image",
    "src": "media/pizza/photo_08.jpg",
-   "w": 1280,
-   "h": 1600
+   "w": 1600,
+   "h": 1067
   },
   {
    "type": "image",
    "src": "media/pizza/photo_09.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 1281,
+   "h": 1600
   },
   {
    "type": "image",
    "src": "media/pizza/photo_10.jpg",
    "w": 1600,
-   "h": 1067
+   "h": 1066
   },
   {
    "type": "image",
@@ -205,8 +217,8 @@
   {
    "type": "image",
    "src": "media/pizza/photo_14.jpg",
-   "w": 1281,
-   "h": 1600
+   "w": 1600,
+   "h": 1067
   }
  ]
 }

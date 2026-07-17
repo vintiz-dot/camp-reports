@@ -70,11 +70,12 @@
    ]
   }
  },
+ "interviews": [],
  "stats": {
   "en": [
    {
     "value": "4",
-    "label": "Camp days captured"
+    "label": "Days of English immersion"
    },
    {
     "value": "21",
@@ -92,7 +93,7 @@
   "vi": [
    {
     "value": "4",
-    "label": "Ngày trại được ghi lại"
+    "label": "Ngày hòa mình cùng tiếng Anh"
    },
    {
     "value": "21",
@@ -119,7 +120,7 @@
    "type": "image",
    "src": "media/sammy/photo_02.jpg",
    "w": 1600,
-   "h": 1067
+   "h": 1066
   },
   {
    "type": "video",
@@ -157,56 +158,26 @@
   {
    "type": "image",
    "src": "media/sammy/photo_06.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 1599,
+   "h": 1066
   },
   {
    "type": "image",
    "src": "media/sammy/photo_07.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 858,
+   "h": 572
   },
   {
    "type": "image",
    "src": "media/sammy/photo_08.jpg",
-   "w": 1600,
-   "h": 1066
+   "w": 678,
+   "h": 452
   },
   {
    "type": "image",
    "src": "media/sammy/photo_09.jpg",
-   "w": 1600,
-   "h": 1067
-  },
-  {
-   "type": "image",
-   "src": "media/sammy/photo_10.jpg",
-   "w": 1600,
-   "h": 1067
-  },
-  {
-   "type": "image",
-   "src": "media/sammy/photo_11.jpg",
-   "w": 1600,
-   "h": 1067
-  },
-  {
-   "type": "image",
-   "src": "media/sammy/photo_12.jpg",
-   "w": 1600,
-   "h": 1066
-  },
-  {
-   "type": "image",
-   "src": "media/sammy/photo_13.jpg",
-   "w": 1600,
-   "h": 1067
-  },
-  {
-   "type": "image",
-   "src": "media/sammy/photo_14.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 577,
+   "h": 385
   }
  ]
 }

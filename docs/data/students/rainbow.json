@@ -70,18 +70,24 @@
    ]
   }
  },
+ "interviews": [
+  {
+   "youtubeId": "usTj0gSyug0",
+   "title": "Rainbow's Reflection"
+  }
+ ],
  "stats": {
   "en": [
    {
-    "value": "11",
-    "label": "Camp days captured"
+    "value": "13",
+    "label": "Days of English immersion"
    },
    {
-    "value": "38",
+    "value": "42",
     "label": "Photographs"
    },
    {
-    "value": "50",
+    "value": "51",
     "label": "Film moments"
    },
    {
@@ -91,15 +97,15 @@
   ],
   "vi": [
    {
-    "value": "11",
-    "label": "Ngày trại được ghi lại"
+    "value": "13",
+    "label": "Ngày hòa mình cùng tiếng Anh"
    },
    {
-    "value": "38",
+    "value": "42",
     "label": "Bức ảnh"
    },
    {
-    "value": "50",
+    "value": "51",
     "label": "Thước phim"
    },
    {
@@ -110,16 +116,22 @@
  },
  "gallery": [
   {
+   "type": "video",
+   "src": "media/rainbow/extra_clip_01.mp4",
+   "poster": "media/rainbow/extra_clip_01.jpg",
+   "landscape": false
+  },
+  {
    "type": "image",
    "src": "media/rainbow/photo_01.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 1280,
+   "h": 1600
   },
   {
    "type": "image",
    "src": "media/rainbow/photo_02.jpg",
-   "w": 1280,
-   "h": 1600
+   "w": 1600,
+   "h": 1067
   },
   {
    "type": "video",
@@ -163,8 +175,8 @@
   {
    "type": "image",
    "src": "media/rainbow/photo_07.jpg",
-   "w": 1600,
-   "h": 1067
+   "w": 1280,
+   "h": 1600
   },
   {
    "type": "image",
@@ -206,7 +218,7 @@
    "type": "image",
    "src": "media/rainbow/photo_14.jpg",
    "w": 1600,
-   "h": 1067
+   "h": 1066
   }
  ]
 }

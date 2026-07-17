@@ -70,11 +70,12 @@
    ]
   }
  },
+ "interviews": [],
  "stats": {
   "en": [
    {
     "value": "9",
-    "label": "Camp days captured"
+    "label": "Days of English immersion"
    },
    {
     "value": "55",
@@ -92,7 +93,7 @@
   "vi": [
    {
     "value": "9",
-    "label": "Ngày trại được ghi lại"
+    "label": "Ngày hòa mình cùng tiếng Anh"
    },
    {
     "value": "55",
@@ -112,8 +113,8 @@
   {
    "type": "image",
    "src": "media/panda/photo_01.jpg",
-   "w": 1280,
-   "h": 1600
+   "w": 1600,
+   "h": 1067
   },
   {
    "type": "image",
@@ -169,8 +170,8 @@
   {
    "type": "image",
    "src": "media/panda/photo_08.jpg",
-   "w": 1280,
-   "h": 1600
+   "w": 1600,
+   "h": 1067
   },
   {
    "type": "image",
@@ -187,26 +188,26 @@
   {
    "type": "image",
    "src": "media/panda/photo_11.jpg",
-   "w": 1280,
-   "h": 1600
-  },
-  {
-   "type": "image",
-   "src": "media/panda/photo_12.jpg",
-   "w": 1280,
-   "h": 1600
-  },
-  {
-   "type": "image",
-   "src": "media/panda/photo_13.jpg",
    "w": 1600,
    "h": 1067
   },
   {
    "type": "image",
+   "src": "media/panda/photo_12.jpg",
+   "w": 1600,
+   "h": 1067
+  },
+  {
+   "type": "image",
+   "src": "media/panda/photo_13.jpg",
+   "w": 1600,
+   "h": 1066
+  },
+  {
+   "type": "image",
    "src": "media/panda/photo_14.jpg",
-   "w": 1279,
-   "h": 1600
+   "w": 1600,
+   "h": 1066
   }
  ]
 }
