@@ -79,8 +79,12 @@
  "stats": {
   "en": [
    {
-    "value": "18",
-    "label": "Days of English immersion"
+    "value": "40",
+    "label": "Days at camp, 8:00–17:00"
+   },
+   {
+    "value": "360+",
+    "label": "Hours of English immersion"
    },
    {
     "value": "66",
@@ -89,16 +93,16 @@
    {
     "value": "86",
     "label": "Film moments"
-   },
-   {
-    "value": "1",
-    "label": "Unforgettable summer"
    }
   ],
   "vi": [
    {
-    "value": "18",
-    "label": "Ngày hòa mình cùng tiếng Anh"
+    "value": "40",
+    "label": "Ngày ở trại, 8:00–17:00"
+   },
+   {
+    "value": "360+",
+    "label": "Giờ hòa mình cùng tiếng Anh"
    },
    {
     "value": "66",
@@ -107,20 +111,10 @@
    {
     "value": "86",
     "label": "Thước phim"
-   },
-   {
-    "value": "1",
-    "label": "Mùa hè đáng nhớ"
    }
   ]
  },
  "gallery": [
-  {
-   "type": "video",
-   "src": "media/pizza/extra_clip_01.mp4",
-   "poster": "media/pizza/extra_clip_01.jpg",
-   "landscape": false
-  },
   {
    "type": "image",
    "src": "media/pizza/photo_01.jpg",

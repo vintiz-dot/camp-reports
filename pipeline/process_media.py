@@ -132,21 +132,45 @@ def poster_frame(video_path, t, out_path):
 
 DATE_RE = re.compile(r"^(\d{4})_(\d{2})_(\d{2})_")
 
+# Camp calendar: 40 weekdays on site, 08:00-17:00 daily (see official
+# timetable). Students who joined mid-session get a pro-rated count from
+# their first appearance in the media record.
+CAMP_START = "2026_06_01_"
+CAMP_END = "2026_07_16_"
+CAMP_TOTAL_DAYS = 40
+HOURS_PER_DAY = 9
+
+
+def attendance_days(dates):
+    """Full camp unless the student first appears well after the start."""
+    if not dates:
+        return CAMP_TOTAL_DAYS
+    first = min(dates)
+    if first <= "2026_06_05_":
+        return CAMP_TOTAL_DAYS
+    import datetime as _dt
+    d0 = _dt.date(*map(int, first.rstrip("_").split("_")))
+    d1 = _dt.date(*map(int, CAMP_END.rstrip("_").split("_")))
+    return max(1, sum(1 for i in range((d1 - d0).days + 1)
+                      if (d0 + _dt.timedelta(i)).weekday() < 5))
+
 
 def build_stats(photo_files, video_files, n_photos, n_videos):
-    days = {m.group(0) for f in list(photo_files) + list(video_files)
-            if (m := DATE_RE.match(f))}
-    en, vi = [], []
-    if days:
-        en.append({"value": str(len(days)), "label": "Days of English immersion"})
-        vi.append({"value": str(len(days)), "label": "Ngày hòa mình cùng tiếng Anh"})
-    en.append({"value": str(n_photos), "label": "Photographs"})
-    vi.append({"value": str(n_photos), "label": "Bức ảnh"})
-    if n_videos:
-        en.append({"value": str(n_videos), "label": "Film moments"})
-        vi.append({"value": str(n_videos), "label": "Thước phim"})
-    en.append({"value": "1", "label": "Unforgettable summer"})
-    vi.append({"value": "1", "label": "Mùa hè đáng nhớ"})
+    days = attendance_days({m.group(0) for f in list(photo_files) + list(video_files)
+                            if (m := DATE_RE.match(f))})
+    hours = days * HOURS_PER_DAY
+    en = [
+        {"value": str(days), "label": "Days at camp, 8:00–17:00"},
+        {"value": f"{hours}+", "label": "Hours of English immersion"},
+        {"value": str(n_photos), "label": "Photographs"},
+        {"value": str(n_videos), "label": "Film moments"},
+    ]
+    vi = [
+        {"value": str(days), "label": "Ngày ở trại, 8:00–17:00"},
+        {"value": f"{hours}+", "label": "Giờ hòa mình cùng tiếng Anh"},
+        {"value": str(n_photos), "label": "Bức ảnh"},
+        {"value": str(n_videos), "label": "Thước phim"},
+    ]
     return {"en": en, "vi": vi}
 
 
@@ -250,8 +274,15 @@ def main():
                 used_minutes.add(minute_key)
             if day_key:
                 day_counts[day_key] = day_counts.get(day_key, 0) + 1
+            # the hero banner must star the student: skip shots where any
+            # other face (teacher, classmate) clearly dominates the frame
+            rec_faces = faces_by_file[info["file"]]["faces"]
+            own_size = min(info["box"][2], info["box"][3])
+            biggest_other = max((min(f["box"][2], f["box"][3]) for f in rec_faces
+                                 if f["fid"] != fid), default=0)
+            dominant = own_size >= biggest_other * 0.85
             gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-            if hero is None and sharpness(gray) > 60:
+            if hero is None and dominant and sharpness(gray) > 60:
                 crop = crop_around_face(img, info["box"], aspect=16 / 10, zoom=6.5)
                 save_jpeg(crop, media_dir / "hero.jpg", HERO_WIDTH)
                 hero = {"type": "image", "src": f"media/{slug}/hero.jpg",
