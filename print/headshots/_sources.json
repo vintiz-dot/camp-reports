@@ -1,0 +1,191 @@
+{
+ "bon": {
+  "source": "2026_06_24_09_55_IMG_4961.HEIC",
+  "face_px": 449,
+  "front": 0.54,
+  "identity": 0.78,
+  "clear": 0.82,
+  "sharp": 99,
+  "score": 36
+ },
+ "brian": {
+  "source": "2026_06_24_10_20_IMG_4992.HEIC",
+  "face_px": 453,
+  "front": 0.91,
+  "identity": 0.63,
+  "clear": 0.7,
+  "sharp": 158,
+  "score": 107
+ },
+ "chloe": {
+  "source": "z7979606156152_6d0069f7ae50c4ef0a328251afe725e6.jpg",
+  "face_px": 90,
+  "front": 0.9,
+  "identity": 0.7,
+  "clear": 0.91,
+  "sharp": 212,
+  "score": 61
+ },
+ "david": {
+  "source": "z8004627009866_71835e1c4eacc152c7d2d12c340a0c74.jpg",
+  "face_px": 416,
+  "front": 0.85,
+  "identity": 0.82,
+  "clear": 0.92,
+  "sharp": 129,
+  "score": 135
+ },
+ "elina": {
+  "source": "z8004627602145_5d0dcbc0b50707e26726c81ed9d3c18a.jpg",
+  "face_px": 496,
+  "front": 0.95,
+  "identity": 0.83,
+  "clear": 0.62,
+  "sharp": 90,
+  "score": 55
+ },
+ "elsa": {
+  "source": "extra_clip_01.mp4@4.3s",
+  "face_px": 132,
+  "front": 0.67,
+  "identity": 0.51,
+  "clear": 0.86,
+  "sharp": 167,
+  "score": 37
+ },
+ "emma": {
+  "source": "2026_06_23_17_00_IMG_4917.HEIC",
+  "face_px": 186,
+  "front": 0.96,
+  "identity": 0.82,
+  "clear": 0.74,
+  "sharp": 426,
+  "score": 82
+ },
+ "felix": {
+  "source": "z7979606118368_8db5825acdd54ffb3e797ac3a76a3b3b.jpg",
+  "face_px": 142,
+  "front": 0.92,
+  "identity": 0.85,
+  "clear": 0.88,
+  "sharp": 282,
+  "score": 87
+ },
+ "gia-minh": {
+  "source": "z7972524753195_82983901d94929bd994188414e3f1014.jpg",
+  "face_px": 74,
+  "front": 0.75,
+  "identity": 0.79,
+  "clear": 0.82,
+  "sharp": 359,
+  "score": 27
+ },
+ "jessica": {
+  "source": "2026_06_23_17_00_IMG_4917.HEIC",
+  "face_px": 245,
+  "front": 0.88,
+  "identity": 0.82,
+  "clear": 0.66,
+  "sharp": 333,
+  "score": 71
+ },
+ "kuromi": {
+  "source": "2026_06_04_16_31_IMG_4531.HEIC",
+  "face_px": 415,
+  "front": 0.89,
+  "identity": 0.88,
+  "clear": 0.73,
+  "sharp": 85,
+  "score": 61
+ },
+ "luka": {
+  "source": "extra_clip_04.mp4@8.3s",
+  "face_px": 155,
+  "front": 0.77,
+  "identity": 0.92,
+  "clear": 0.73,
+  "sharp": 146,
+  "score": 36
+ },
+ "moon": {
+  "source": "2026_06_25_14_41_IMG_5057.HEIC",
+  "face_px": 190,
+  "front": 0.8,
+  "identity": 0.69,
+  "clear": 0.76,
+  "sharp": 88,
+  "score": 29
+ },
+ "panda": {
+  "source": "2026_06_25_14_40_IMG_5054.HEIC",
+  "face_px": 232,
+  "front": 0.81,
+  "identity": 0.77,
+  "clear": 0.94,
+  "sharp": 111,
+  "score": 70
+ },
+ "pizza": {
+  "source": "2026_06_04_16_31_IMG_4531.HEIC",
+  "face_px": 394,
+  "front": 0.77,
+  "identity": 0.8,
+  "clear": 0.9,
+  "sharp": 134,
+  "score": 115
+ },
+ "rainbow": {
+  "source": "z7900479825200_abaec0afcc13716228b6ce785ba6d33d.jpg",
+  "face_px": 396,
+  "front": 0.93,
+  "identity": 0.83,
+  "clear": 0.69,
+  "sharp": 127,
+  "score": 88
+ },
+ "robot": {
+  "source": "z7987533927353_e869306d1fbf67c87f93fe66aa92a5fc.jpg",
+  "face_px": 92,
+  "front": 0.54,
+  "identity": 0.79,
+  "clear": 0.89,
+  "sharp": 491,
+  "score": 25
+ },
+ "ronaldo": {
+  "source": "z7900479825200_abaec0afcc13716228b6ce785ba6d33d.jpg",
+  "face_px": 396,
+  "front": 0.74,
+  "identity": 0.78,
+  "clear": 0.83,
+  "sharp": 197,
+  "score": 133
+ },
+ "sam": {
+  "source": "2026_07_10_16_05_IMG_5508.HEIC",
+  "face_px": 282,
+  "front": 0.6,
+  "identity": 0.76,
+  "clear": 0.93,
+  "sharp": 38,
+  "score": 17
+ },
+ "sammy": {
+  "source": "2026_06_23_17_00_IMG_4917.HEIC",
+  "face_px": 179,
+  "front": 0.91,
+  "identity": 0.74,
+  "clear": 0.69,
+  "sharp": 252,
+  "score": 63
+ },
+ "william": {
+  "source": "2026_06_24_11_30_IMG_5012.HEIC",
+  "face_px": 276,
+  "front": 0.94,
+  "identity": 0.74,
+  "clear": 0.96,
+  "sharp": 46,
+  "score": 43
+ }
+}
