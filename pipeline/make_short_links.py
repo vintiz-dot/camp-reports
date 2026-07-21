@@ -62,12 +62,11 @@ def main():
         (d / "index.html").write_text(
             TEMPLATE.format(name=name, slug=slug, target=TARGET.format(slug=slug)),
             encoding="utf-8")
-        # The QR payload is uppercase so it encodes in QR *alphanumeric*
-        # mode (25 modules instead of 29 — noticeably bigger squares on a
-        # small heart). Its path is therefore purely numeric: an uppercase
-        # letter path would need a `/C/` directory, and that cannot coexist
-        # with `/c/` on a case-insensitive Windows filesystem while GitHub
-        # Pages, being case-sensitive, would 404 on it.
+        # A plain lowercase https URL. An uppercase payload encodes in QR
+        # alphanumeric mode and needs fewer modules, but some phone cameras
+        # refuse to linkify an uppercase scheme — and on 74x44 mm wood there
+        # is ample room, so universal scannability wins over density.
+        # The numeric /NN/ paths stay as a short backup route.
         code = f"{i:02d}"
         cdir = SITE / code
         cdir.mkdir(parents=True, exist_ok=True)
@@ -77,7 +76,7 @@ def main():
         links[slug] = {"name": name,
                        "url": f"https://{DOMAIN}/c/{slug}",
                        "code": code,
-                       "qr": f"HTTPS://{DOMAIN.upper()}/{code}"}
+                       "qr": f"https://{DOMAIN}/c/{slug}"}
         print(f"  /c/{slug}  ->  camp/student.html?s={slug}")
 
     (PROJ / "print").mkdir(exist_ok=True)
