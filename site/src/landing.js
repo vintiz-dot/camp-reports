@@ -54,7 +54,7 @@ const L = {
     finalKicker: "Trại hè tiếp theo",
     finalTitle: "Mỗi lớp chỉ có 12 chỗ. Mùa hè của con chỉ có một.",
     finalSub: "Đăng ký học thử miễn phí để gặp thầy, thăm lớp, và để con tự cảm nhận. Không cam kết, không áp lực — chỉ một buổi học thật.",
-    finalNote: "HEC · Đống Đa, Hà Nội · Nhắn tin cho chúng tôi qua hanoienglish.vip",
+    finalNote: "HEC · Đống Đa, Hà Nội · Nhắn tin cho chúng tôi qua hanoienglish.com",
     footerTag: "Lớp học nhỏ, tự tin lớn. Giáo viên Mỹ có bằng sư phạm, giáo trình Oxford & Cambridge, tối đa 12 học sinh mỗi lớp.",
   },
   en: {
@@ -105,7 +105,7 @@ const L = {
     finalKicker: "The next camp",
     finalTitle: "Only 12 seats per class. Your child's summer happens once.",
     finalSub: "Book a free trial class to meet the teacher, see the classroom, and let your child feel it for themselves. No commitment, no pressure — just one real lesson.",
-    finalNote: "HEC · Đống Đa, Hanoi · Message us via hanoienglish.vip",
+    finalNote: "HEC · Đống Đa, Hanoi · Message us via hanoienglish.com",
     footerTag: "Small classes, big confidence. A US-licensed teacher, Oxford & Cambridge curriculum, and no more than 12 students per class.",
   },
 };
