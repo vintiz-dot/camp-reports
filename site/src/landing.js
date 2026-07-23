@@ -16,10 +16,10 @@ const L = {
     ctaSite: "Về trang chủ HEC",
     chips: ["Giáo viên tốt nghiệp tại Mỹ có bằng sư phạm", "Giáo trình Oxford & Cambridge", "Tối đa 12 học sinh / lớp"],
     proof: [
-      ["19", "học viên mùa hè 2026"],
+      ["21", "học viên mùa hè 2026"],
       ["40", "Ngày được ghi lại tại trại hè"],
       ["1.400+", "khoảnh khắc ảnh & video"],
-      ["9", "video các con tự kể"],
+      ["12", "video các con tự kể"],
     ],
     journeyKicker: "Hành trình mùa hè 2026",
     journeyTitle: "Từ buổi sáng đầu tiên bỡ ngỡ đến ngày cuối đầy tự hào.",
@@ -67,10 +67,10 @@ const L = {
     ctaSite: "Visit HEC's homepage",
     chips: ["US-licensed teacher", "Oxford & Cambridge curriculum", "Max 12 students per class"],
     proof: [
-      ["19", "campers in summer 2026"],
+      ["21", "campers in summer 2026"],
       ["40", "camp days documented"],
       ["1,400+", "photo & video moments"],
-      ["9", "student reflection videos"],
+      ["12", "student reflection videos"],
     ],
     journeyKicker: "The Summer 2026 journey",
     journeyTitle: "From a nervous first morning to a proud final day.",
@@ -111,9 +111,12 @@ const L = {
 };
 
 const VIDEOS = [
-  { id: "G3ZjYQe7gEw", name: "Ronaldo" },
-  { id: "WIzYsa_DkNk", name: "Jessica" },
-  { id: "XLKBOWDRHLA", name: "William" },
+  { id: "G3ZjYQe7gEw", vi: "Ronaldo", en: "Ronaldo" },
+  { id: "WIzYsa_DkNk", vi: "Jessica", en: "Jessica" },
+  { id: "XLKBOWDRHLA", vi: "William", en: "William" },
+  { id: "YVoxRmgH89M", vi: "Sammy", en: "Sammy" },
+  { id: "XhOn4ydztbM", vi: "Các con kể về mùa hè", en: "Kids talking about summer" },
+  { id: "m5CjfPfaZRQ", vi: "Lớp 4 tranh biện — quay tại lớp", en: "Grade 4 debate — filmed in class" },
 ];
 
 const JOURNAL_CARDS = [
@@ -181,17 +184,20 @@ function render(l) {
   const vids = document.getElementById("videoGrid");
   vids.innerHTML = "";
   VIDEOS.forEach((v, i) => {
+    const label = v[l] || v.en;
     const div = document.createElement("div");
     div.className = "reveal";
-    div.style.transitionDelay = `${i * 90}ms`;
+    div.style.transitionDelay = `${(i % 3) * 90}ms`;
     div.innerHTML = `
       <div class="aspect-video overflow-hidden rounded-sm bg-black/40">
         <iframe class="w-full h-full" loading="lazy"
           src="https://www.youtube-nocookie.com/embed/${v.id}?rel=0"
-          title="${v.name}" allow="accelerometer; encrypted-media; picture-in-picture"
+          allow="accelerometer; encrypted-media; picture-in-picture"
           allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
       </div>
-      <p class="mt-3 text-sm text-ivory/70 tracking-[0.15em] uppercase">${v.name}</p>`;
+      <p class="mt-3 text-sm text-ivory/70 tracking-[0.15em] uppercase"></p>`;
+    div.querySelector("iframe").title = label;
+    div.querySelector("p").textContent = label;
     vids.appendChild(div);
   });
 

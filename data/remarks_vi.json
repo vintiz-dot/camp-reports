@@ -422,29 +422,29 @@
  "elina": {
   "headline": "Nhỏ tuổi nhất trại — với sự tự nhận thức của một học sinh gấp đôi tuổi mình.",
   "narrative": [
-   "Elina là một thành viên đáng yêu của trại hè. Tuy là trại sinh nhỏ tuổi nhất, con mang trong mình nhận thức cảm xúc vượt xa lứa tuổi: con không bao giờ ngại nói lên chính kiến với bất kỳ ai trong phòng — mạnh dạn và thẳng thắn, nhưng đồng thời dịu dàng, duyên dáng, và quyết tâm tuyệt đối hoàn thành mọi việc mình đã bắt đầu.",
-   "Tính kỷ luật của con tự kể câu chuyện của nó. Mỗi khi hoàn thành bài tập trên lớp, Elina — không cần ai nhắc — lấy bài tập về nhà của trường ra và bắt đầu làm ngay tại trại. Đó là dáng hình của một người học có nguyên tắc, tự định hướng, và thầy cô thực sự tự hào về con."
+   "Elina sáu tuổi, con vào trại giữa khóa, và con mới học tiếng Anh trong một thời gian ngắn — nhưng không điều nào trong số đó làm con chậm lại. Con tiếp thu kiến thức nhanh đến đáng nể và thực sự cởi mở với thử thách. Tuy là trại sinh nhỏ tuổi nhất, con hòa đồng dễ dàng với tất cả mọi người và mang trong mình nhận thức cảm xúc vượt xa lứa tuổi: mạnh dạn và thẳng thắn với chính kiến của mình, nhưng đồng thời dịu dàng, duyên dáng, và quyết tâm tuyệt đối hoàn thành mọi việc đã bắt đầu.",
+   "Con không bao giờ ngại nói ra điều mình cần. Bằng giọng nói nhỏ mà trong trẻo, con chỉ đơn giản nói: “Thầy ơi, giúp con với — giúp con với,” và cả căn phòng ấm lên vì con. Tính kỷ luật của con cũng tự kể câu chuyện riêng: mỗi khi hoàn thành bài tập trên lớp, Elina — không cần ai nhắc — lấy bài tập về nhà của trường ra và bắt đầu làm ngay tại trại. Con thắp sáng mọi căn phòng con bước vào, và thầy cô thực sự tự hào về con."
   ],
   "signature": "Đội ngũ giáo viên HEC",
   "strengths": [
    {
     "attribute": "Người giao tiếp",
     "title": "Một giọng nói không co lại",
-    "body": "Elina nói lên chính kiến với bất kỳ ai, tự tin và dễ mến — mạnh dạn và duyên dáng trong cùng một hơi thở."
+    "body": "Elina nói lên chính kiến — và nói ra điều mình cần — với bất kỳ ai trong phòng, tự tin và dễ mến."
+   },
+   {
+    "attribute": "Người ham tìm tòi",
+    "title": "Học với tốc độ cao",
+    "body": "Mới với tiếng Anh và mới với trại hè, con hấp thụ kiến thức rất nhanh và đón nhận thử thách thay vì né tránh."
    },
    {
     "attribute": "Người có nguyên tắc",
     "title": "Kỷ luật vượt tuổi",
     "body": "Làm xong bài trên lớp rồi tự lấy bài về nhà ra làm tiếp — mức tự kỷ luật mà phần lớn học sinh phải nhiều năm sau mới chạm tới."
-   },
-   {
-    "attribute": "Người quyết tâm",
-    "title": "Hoàn thành điều đã bắt đầu",
-    "body": "Một khi Elina bắt đầu một việc, việc ấy chắc chắn sẽ được hoàn thành."
    }
   ],
   "nextSteps": [
-   "Nhiệm vụ của thầy cô với Elina là bảo vệ giọng nói ấy trong khi mở rộng biên độ của nó: thử thách lớn dần, vốn từ phong phú hơn cho những chính kiến của con, và cơ hội dẫn dắt các nhóm nhỏ tuổi hơn khi con lớn lên."
+   "Nhiệm vụ của thầy cô với Elina là bảo vệ giọng nói ấy trong khi mở rộng biên độ của nó: thử thách lớn dần, vốn từ phong phú hơn cho những chính kiến của con, và — khi con lớn lên — cơ hội dẫn dắt chính những nhóm nhỏ tuổi mà hôm nay con là người bé nhất."
   ]
  },
  "william": {
@@ -473,6 +473,90 @@
   ],
   "nextSteps": [
    "William đã sẵn sàng dẫn dắt bằng chính sự thấu cảm mà con dùng để học: các vai trò hỗ trợ bạn bè, dự án giàu tính suy ngẫm, và những thử thách xứng đáng với sự kiên nhẫn của con. Thầy cô sẽ tiếp tục tôn trọng nhịp điệu riêng ấy — con đã cho chúng tôi thấy nó hiệu quả."
+  ]
+ },
+ "chloe": {
+  "headline": "Chloe mang mỗi bài học ra khỏi lớp — và mang cả thế giới trở lại vào lớp.",
+  "narrative": [
+   "Chloe sở hữu một trong những trí tuệ sáng nhất của trại hè này, và con dùng nó theo đúng cách thầy cô mong đợi nhất. Con là hiện thân của những khái niệm xuyên suốt: điều gì học được, con mang ra khỏi lớp và đưa vào đời thực — và cũng đều đặn như thế, con mang chính trải nghiệm đời thực của mình trở lại lớp học, làm giàu thêm tư duy của cả nhóm.",
+   "Con không bao giờ sợ dùng một từ mới, không bao giờ sợ thử, không bao giờ sợ dấn thân đến cùng. Thử thách thực hành — không vấn đề gì. Bài toán khó — không vấn đề gì. Bài viết đòi hỏi — không vấn đề gì. Tiến bộ của con suốt trại hè này là rất lớn, và thầy cô thực sự thấy mình may mắn khi được dạy con. Chloe là kiểu học trò mà người thầy nào cũng muốn được dạy mỗi ngày, mọi lúc, mọi nơi: con làm cho việc dạy học trở nên nhẹ nhàng. Thầy cô đã rất hạnh phúc khi có con ở trại hè này, Chloe."
+  ],
+  "signature": "Đội ngũ giáo viên HEC",
+  "strengths": [
+   {
+    "attribute": "Người kết nối",
+    "title": "Tri thức biết đi xa",
+    "body": "Chloe đưa ý tưởng vượt qua mọi ranh giới — điều học trong lớp con áp dụng ngoài đời, điều gặp ngoài đời con mang trở lại lớp. Sự chuyển giao ấy là bằng chứng thật nhất của việc thực sự hiểu."
+   },
+   {
+    "attribute": "Người dám thử",
+    "title": "Không bao giờ sợ dấn thân",
+    "body": "Từ mới, việc mới, thử thách mới: Chloe thử, và con theo đến cùng. Con đã gỡ bỏ nỗi sợ sai khỏi hành trình học của chính mình."
+   },
+   {
+    "attribute": "Người toàn diện",
+    "title": "Mạnh ở mọi dạng thức",
+    "body": "Thực hành, toán học hay viết lách — con đón nhận mỗi loại thử thách với cùng một sự tự tin điềm tĩnh."
+   }
+  ],
+  "nextSteps": [
+   "Chloe đã sẵn sàng cho những dự án khám phá cố ý bắc cầu giữa các môn học: bắt đầu từ một câu hỏi đời thực và kết thúc trước một người nghe đời thực. Thầy cô sẽ tiếp tục mở rộng cây cầu mà con vốn đã đi trên đó, giữa lớp học và thế giới."
+  ]
+ },
+ "sam": {
+  "headline": "Sam vào trại giữa khóa — và trưởng thành một cách hoàn hảo.",
+  "narrative": [
+   "Sam đến với chúng ta giữa trại hè, và sự phát triển của con kể từ đó là hoàn hảo. Con có nhận thức cảm xúc sâu sắc và năng lực thực sự, và con thẳng thắn theo nghĩa đẹp nhất của từ này: không hề rụt rè, nhưng cũng không bao giờ vô lễ. Con giữ được thế cân bằng mà phần lớn người lớn chưa chắc tìm thấy — một bên là dũng khí và can đảm, một bên là sự nhu hòa và khiêm nhường.",
+   "Thế cân bằng ấy hiện rõ nhất trong cách con ứng xử với mọi người. Sam biết đặt ra ranh giới và kỳ vọng rõ ràng — với thầy cô cũng như với bạn bè và các bạn cùng lớp — và con làm điều đó bằng sự ấm áp. Suốt chặng đường ấy, con luôn thân thiện và tinh nghịch. Cảm ơn con, Sam, vì đã mang cá tính của mình đến với trại hè này."
+  ],
+  "signature": "Đội ngũ giáo viên HEC",
+  "strengths": [
+   {
+    "attribute": "Trí tuệ cảm xúc",
+    "title": "Hiểu mình và hiểu người",
+    "body": "Sam đọc được người khác một cách chính xác và đáp lại bằng sự quan tâm — nền móng của mọi mối quan hệ bền vững con xây dựng."
+   },
+   {
+    "attribute": "Người giao tiếp",
+    "title": "Thẳng thắn mà không thô",
+    "body": "Con nói điều mình nghĩ một cách rõ ràng và tử tế, giữ can đảm và khiêm nhường trong cùng một hơi thở."
+   },
+   {
+    "attribute": "Người có nguyên tắc",
+    "title": "Ranh giới được đặt rõ ràng",
+    "body": "Sam nói rõ kỳ vọng của mình với cả thầy cô lẫn bạn bè — một sự tự trọng sẽ theo con suốt đời."
+   }
+  ],
+  "nextSteps": [
+   "Sự cân bằng giữa can đảm và khiêm nhường khiến Sam trở thành ứng viên tự nhiên cho những vai trò hòa giải và dìu dắt bạn bè. Thầy cô sẽ tiếp tục đặt con vào các bối cảnh nhóm nơi sự rõ ràng của con dẫn dắt người khác, cùng những dự án dài hơi để đà tiến từ giữa trại tiếp tục cộng dồn."
+  ]
+ },
+ "luka": {
+  "headline": "Luka biết rõ điểm mạnh của mình — và biết chính xác nên cùng ai xây dựng.",
+  "narrative": [
+   "Luka là một học trò giỏi: nhanh nhẹn, năng động và rất khéo tay. Các dự án thực hành là nơi con sống trọn vẹn nhất, và con còn chơi bóng đá rất tốt — nhưng điều làm con quý giá với một đội nhóm lại không nằm ở riêng điều nào trong hai điều ấy. Con là một người bạn tốt và một đồng đội đáng tin, và con biết cách làm việc bên trong một đội chứ không chỉ đứng cạnh đội.",
+   "Ấn tượng nhất là khả năng tự hiểu mình. Luka ý thức rất rõ đâu là điểm mạnh của con và con có thể cải thiện ra sao, và con mở rộng sự tinh ý ấy sang tất cả những người quanh mình: với mỗi nhiệm vụ khác nhau, con biết chính xác nên ghép cặp với ai — đúng người cho bóng đá, đúng người cho bài viết, đúng người cho khu sáng chế. Đó là một EQ cao song hành cùng một IQ cao, và điều đó hiếm gặp ở bất kỳ lứa tuổi nào."
+  ],
+  "signature": "Đội ngũ giáo viên HEC",
+  "strengths": [
+   {
+    "attribute": "Người khéo tay",
+    "title": "Đôi tay biết tư duy",
+    "body": "Sự khéo léo của Luka hiện ra trong mọi dự án thực hành; làm ra sản phẩm là lúc hiểu biết của con trở nên nhìn thấy được."
+   },
+   {
+    "attribute": "Người biết suy ngẫm",
+    "title": "Biết rõ điểm mạnh của mình",
+    "body": "Con gọi tên được điều mình giỏi và điều mình muốn cải thiện — sự tự hiểu biến nỗ lực thành tiến bộ."
+   },
+   {
+    "attribute": "Người cộng tác",
+    "title": "Đúng người cho đúng việc",
+    "body": "Luka chọn đồng đội một cách có chủ đích, ghép đúng người với đúng nhiệm vụ. EQ cao và IQ cao cùng làm việc."
+   }
+  ],
+  "nextSteps": [
+   "Thầy cô sẽ giao cho Luka những vai trò tận dụng khả năng đọc đội nhóm của con: lập nhóm, phân việc, và cùng nhìn lại sau đó xem điều gì đã hiệu quả. Kết hợp với những dự án thực hành khó dần lên, bản năng ấy sẽ trưởng thành thành năng lực dẫn dắt thực sự."
   ]
  }
 }

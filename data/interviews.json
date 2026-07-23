@@ -1,14 +1,72 @@
 {
-  "sam": [{ "youtubeId": "4PaAuyh4t9k", "title": "Sam's Reflection" }],
-  "rainbow": [{ "youtubeId": "usTj0gSyug0", "title": "Rainbow's Reflection" }],
-  "robot": [{ "youtubeId": "ruqrCPYxxdA", "title": "Robot's Reflection" }],
-  "pizza": [{ "youtubeId": "HvydZGzI32k", "title": "Pizza's Reflection" }],
-  "jessica": [
-    { "youtubeId": "WIzYsa_DkNk", "title": "Jessica's Summer Reflection — Part 1" },
-    { "youtubeId": "xkGgr6pTjYA", "title": "Jessica's Reflections — Part 2" }
-  ],
-  "david": [{ "youtubeId": "F_NG1XgoIY8", "title": "David's Reflection" }],
-  "william": [{ "youtubeId": "XLKBOWDRHLA", "title": "William's Reflection" }],
-  "ronaldo": [{ "youtubeId": "G3ZjYQe7gEw", "title": "Ronaldo's Reflection" }],
-  "elsa": [{ "youtubeId": "FLwcYgen6ro", "title": "Elsa's Video" }]
+ "sam": [
+  {
+   "youtubeId": "4PaAuyh4t9k",
+   "title": "Sam's Reflection"
+  }
+ ],
+ "rainbow": [
+  {
+   "youtubeId": "usTj0gSyug0",
+   "title": "Rainbow's Reflection"
+  }
+ ],
+ "robot": [
+  {
+   "youtubeId": "ruqrCPYxxdA",
+   "title": "Robot's Reflection"
+  }
+ ],
+ "pizza": [
+  {
+   "youtubeId": "HvydZGzI32k",
+   "title": "Pizza's Reflection"
+  }
+ ],
+ "jessica": [
+  {
+   "youtubeId": "WIzYsa_DkNk",
+   "title": "Jessica's Summer Reflection — Part 1"
+  },
+  {
+   "youtubeId": "xkGgr6pTjYA",
+   "title": "Jessica's Reflections — Part 2"
+  }
+ ],
+ "david": [
+  {
+   "youtubeId": "F_NG1XgoIY8",
+   "title": "David's Reflection"
+  }
+ ],
+ "william": [
+  {
+   "youtubeId": "XLKBOWDRHLA",
+   "title": "William's Reflection"
+  }
+ ],
+ "ronaldo": [
+  {
+   "youtubeId": "G3ZjYQe7gEw",
+   "title": "Ronaldo's Reflection"
+  }
+ ],
+ "elsa": [
+  {
+   "youtubeId": "FLwcYgen6ro",
+   "title": "Elsa's Video"
+  }
+ ],
+ "sammy": [
+  {
+   "youtubeId": "YVoxRmgH89M",
+   "title": "Sammy's Summer Reflection"
+  }
+ ],
+ "chloe": [
+  {
+   "youtubeId": "HzAugWK7I5U",
+   "title": "Chloe's Reflection"
+  }
+ ]
 }
